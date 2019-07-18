@@ -59,9 +59,9 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
-  color: #fff !important;
+  color: #0000 !important;
   border-radius: 100%;
-  text-align: center;
+  text-align:left;
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #F0FFFF;
 }
 
 .dev-icons {
@@ -95,7 +95,7 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align:left;
     position: fixed;
     top: 0;
     left: 0;
