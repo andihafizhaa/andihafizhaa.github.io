@@ -13,9 +13,9 @@
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
-    top: 0;
+    top: 90;
     left: 0;
 
     display: flex;
@@ -39,7 +39,7 @@
       align-items: flex-start;
       flex-grow: 0;
 
-      width: 100%;
+      width: 80%;
       margin-bottom: auto;
       .navbar-nav {
         flex-direction: column;
